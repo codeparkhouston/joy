@@ -1,4 +1,4 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="../../dist/joy.css">
@@ -36,8 +36,8 @@ window.joy = Joy({
 	container: "#joy",
 	onupdate: function(my){
 		var box = document.getElementById("box");
-        box.style.width = my.data.width;
-        box.style.height = my.data.height;
+        box.style.width = my.data.width + "px";
+        box.style.height = my.data.height + "px";
         box.style.background = my.data.color;
 	}
 });
